@@ -1,5 +1,23 @@
-{
-  "rewrites": [
-    { "source": "/", "destination": "/welcome.html" }
-  ]
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rossco's Karaoke - Welcome</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="branding/logo-placeholder.png" alt="Rossco's Karaoke Logo" class="logo" />
+    <h1>Welcome to Rossco's Karaoke</h1>
+    <p>Select your event below:</p>
+    <select id="event-select"></select>
+    <form id="request-form" style="display:none;">
+      <input type="text" placeholder="Your Name" id="singer-name" required />
+      <input type="text" placeholder="Song Title" id="song-title" required />
+      <input type="text" placeholder="Song Artist" id="song-artist" required />
+      <button type="submit">Submit Song</button>
+    </form>
+  </div>
+  <script type="module" src="scripts/welcome.js"></script>
+</body>
+</html>
