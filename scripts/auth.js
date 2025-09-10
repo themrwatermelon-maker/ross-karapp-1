@@ -1,5 +1,3 @@
-// scripts/auth.js
-
 export function isAuthenticated() {
   return localStorage.getItem("karaoke_admin") === "true";
 }
