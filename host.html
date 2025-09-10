@@ -1,1 +1,27 @@
-<!-- host.html: Password-protected dashboard -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rossco's Karaoke - Host</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="login-section">
+    <h2>Host Login</h2>
+    <form id="login-form">
+      <input type="password" id="password" placeholder="Enter password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div class="container" id="host-dashboard" style="display:none;">
+    <h1>Host Dashboard</h1>
+    <button id="create-event">Create New Event</button>
+    <select id="host-event-select"></select>
+    <ul id="singer-queue"></ul>
+  </div>
+
+  <script type="module" src="scripts/login.js"></script>
+  <script type="module" src="scripts/host.js"></script>
+</body>
+</html>
