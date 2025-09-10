@@ -1,12 +1,5 @@
 {
-  "redirects": [
-    { "source": "/", "destination": "/welcome.html", "permanent": true }
-  ],
-  "version": 2,
-  "builds": [
-    { "src": "server.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/api/.*", "dest": "/server.js" }
+  "rewrites": [
+    { "source": "/", "destination": "/welcome.html" }
   ]
 }
