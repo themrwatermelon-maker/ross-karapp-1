@@ -1,3 +1,22 @@
 {
-  "events": {}
+  "events": {
+    "Saturday Night Party": {
+      "date": "2025-09-14",
+      "location": "Ray's No Frills",
+      "requests": [
+        {
+          "name": "Jess",
+          "song": "Shallow",
+          "artist": "Lady Gaga & Bradley Cooper",
+          "completed": false
+        },
+        {
+          "name": "Dean",
+          "song": "Bohemian Rhapsody",
+          "artist": "Queen",
+          "completed": true
+        }
+      ]
+    }
+  }
 }
